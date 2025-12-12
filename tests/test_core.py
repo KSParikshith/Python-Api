@@ -3,7 +3,6 @@ import tempfile
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-import pytest
 
 from src.core import models, crud, schemas
 
